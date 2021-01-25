@@ -1,0 +1,155 @@
+@media (min-width: 1200px) {
+
+	
+}
+@media (max-width: 1199px) {
+	/* REUSEBLE COMPONENTS */
+	
+	/*	HEADER SECTION */
+	.header-content:nth-child(1) {
+		width: 10%;
+	}
+	.header-content:nth-child(2) {
+		width: 65%;
+	}
+	.header-content:nth-child(3) {
+		width: 25%;
+	}
+	form .search-1 {
+		width: 4.2rem !important;
+		height: 4.2rem !important;
+		border-radius: 50% !important;
+	}
+	form .search-1 button img {
+		line-height: 4.2rem;
+	}
+	.header-icon-1 ul li {
+		margin-left: 1rem;
+	}
+	.header-icon-1 ul li:first-child {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	/* REUSEBLE COMPONENTS */
+	
+	/*	HEADER SECTION */
+	.header-content:nth-child(1) {
+		width: 20%;
+	}
+	.header-content:nth-child(2) {
+		width: 50%;
+	}
+	.header-content:nth-child(3) {
+		width: 30%;
+	}
+	.header-icon-1 ul li {
+		margin-left: 0rem;
+	}
+	.header-icon-1 ul li a:first-child {
+		padding: 1.5rem 2rem;
+	}
+	
+	/* BANNER SECTION */
+	.banner img {
+		border-radius: 0;
+	}
+	.profile{
+		width: 65%;
+	}
+	.call-btn {
+		width: 35%;
+	}
+	
+	/* MAIN-CONTENT */
+	.main {
+		flex-direction: column;
+	}
+	.middle {
+		max-width: 530px;
+		margin: auto;
+	}
+	.left-content,
+	.right-content {
+		width: 100%;
+	}
+	
+}	
+@media (max-width: 848px) {
+	.menu ul li:nth-child(4) {
+		display: none !important;
+	}
+	.menu {
+		width: 50%;
+	}
+	.l_m_s-content {
+		width: 50%;
+	}
+}
+@media (max-width: 767px) {
+	/* REUSEBLE COMPONENTS */
+	
+	/*	HEADER SECTION */
+	.header-content:nth-child(1) {
+		width: 30%;
+	}
+	.header-content:last-child {
+		width: 70%;
+	}
+	
+	/* BANNER SECTION */
+	.profile-main {
+		top: -1.7rem;
+	}
+	.profile{
+		width: 100%;
+	}
+	.call-btn {
+		margin-top: 1.5rem;
+		width: 100%;
+	}
+	.navbigation  {
+		padding-top: 20rem;
+	}
+	
+}
+
+/* DROPDOWN MENU */
+@media (max-width: 724px) {
+	.menu ul li:nth-child(3) {
+		display: none !important;
+	}
+	.menu {
+		width: 40%;
+	}
+	.l_m_s-content {
+		width: 60%;
+	}
+}
+@media (max-width: 645px) {
+	.menu ul li:nth-child(2) {
+		display: none !important;
+	}
+	.menu {
+		width: 35%;
+	}
+	.l_m_s-content {
+		width: 65%;
+	}
+}
+@media (min-width: 646px) {
+	.dropdown-menus a:nth-child(1) {
+		display: none !important;
+	}
+}
+@media (min-width: 725px) {
+	.dropdown-menus a:nth-child(2) {
+		display: none !important;
+	}
+}
+@media (min-width: 849px) {
+	.dropdown-menus a:nth-child(3) {
+		display: none !important;
+	}
+}
